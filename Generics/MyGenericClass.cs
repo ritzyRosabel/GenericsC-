@@ -21,5 +21,8 @@ namespace Generics
             Console.WriteLine("Field type: {0}, Value{1}", typeof(T), genericField);
             return genericField;
         }
+
+        public T MyGenericProperty { get; set; }
+
     }
 }
