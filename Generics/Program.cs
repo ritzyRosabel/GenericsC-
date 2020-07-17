@@ -10,6 +10,11 @@ namespace Generics
     {
         static void Main(string[] args)
         {
+            //at the point of instantiating your class the generics helps to replace those place holders with a specified type
+
+            MyGenericClass<int> myGeneric = new MyGenericClass<int>(10);
+            myGeneric.GenericMethod(20);
+            Console.ReadLine();
         }
     }
 }
