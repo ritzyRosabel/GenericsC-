@@ -15,6 +15,9 @@ namespace Generics
             MyGenericClass<int> myGeneric = new MyGenericClass<int>(10);
             myGeneric.GenericMethod(20);
             Console.ReadLine();
+            //Parameter type :System.Int32, value:20
+            //Field type: System.Int32, Value10
+
         }
     }
 }
